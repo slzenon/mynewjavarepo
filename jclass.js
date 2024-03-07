@@ -11,6 +11,6 @@ class Car {
 const date = new Date();
 let year = date.getFullYear();
 
-const myCar = new Car("Ford", 2014);
+const myCar = new Car("Tacoma", 2024);
 document.getElementById("demo").innerHTML=
 "My car is " + myCar.age(year) + " years old.";
